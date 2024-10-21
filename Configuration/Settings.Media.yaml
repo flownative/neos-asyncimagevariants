@@ -1,0 +1,4 @@
+Neos:
+  Media:
+    # these are created asynchronously using a job queue
+    autoCreateImageVariantPresets: false

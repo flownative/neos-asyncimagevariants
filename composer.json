@@ -1,0 +1,24 @@
+{
+    "name": "flownative/neos-asyncimagevariants",
+    "type": "neos-package",
+    "description": "A package that allows for asynchronous image variant creation in Neos.Media",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "neos/media": "^8.3",
+        "flowpack/jobqueue-common": "^3.3"
+    },
+    "suggest": {
+        "flowpack/jobqueue-doctrine": "To store jobs",
+        "flowpack/jobqueue-redis": "To store jobs",
+        "flowpack/jobqueue-beanstalkd": "To store jobs"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flownative\\Neos\\AsyncImageVariants\\": "Classes"
+        }
+    },
+    "extras": {
+        "installer-name": "Flownative.Neos.AsyncImageVariants"
+    }
+}

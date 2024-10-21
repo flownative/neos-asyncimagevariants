@@ -1,0 +1,5 @@
+Flownative:
+  Neos:
+    AsyncImageVariants:
+      # the queue to use for jobs
+      jobQueue: 'media-queue'
